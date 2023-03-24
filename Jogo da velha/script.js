@@ -57,7 +57,7 @@ function check() {
         }
     }
 
-    if (selected.filter((item) => item).length === 9) {                         // verificando se deu empate de tiver 9 items selecionado //
+    if (selected.filter((item) => item).length === 9) {                         // verificando se deu empate se tiver 9 items selecionado //
         alert("EMPATE!");
         init();
         return;
